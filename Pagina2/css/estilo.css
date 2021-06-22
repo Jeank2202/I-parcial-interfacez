@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Slabo";
+    src: url(./fonts/Slabo27px-Regular);
+}
+
+.header {
+    text-align: center;
+    height: 270px;
+    padding: 12px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXXl86Jy6Nb-qq3B3Fdl-AGkZH7WgUDZXjVw&usqp=CAU");
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-size: 18px;
+    margin-top: 14px;
+    color: antiquewhite;
+}
+
+a {
+    font-family: "Slabo";
+    text-decoration: none;
+    color: #f7f4f4;
+}
+
+.about {
+    font-family: "Slabo";
+    padding: 16px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXXl86Jy6Nb-qq3B3Fdl-AGkZH7WgUDZXjVw&usqp=CAU");
+}
+
+.about h3 {
+    color: #eff7f2;
+    font-size: 16px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXXl86Jy6Nb-qq3B3Fdl-AGkZH7WgUDZXjVw&usqp=CAU");
+}
+
+.about p {
+    color: #f1f1f7;
+    font-size: 15px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXXl86Jy6Nb-qq3B3Fdl-AGkZH7WgUDZXjVw&usqp=CAU");
+}
+
+.about h4 {
+    font-size: 16px;
+    color: white;
+}
+
+.about h5 {
+    font-size: 16px;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(31, 24, 24);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 8px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 1rem;
+}
+
+.footer-content button {
+    width: 12rem;
+    height: 2rem;
+    background: rgb(96, 141, 214);
+    font-family: "Arial";
+    text-transform: inherit;
+    color: rgb(200, 500, 160);
+    border-radius: 70px;
+    border: 2px solid #000027;
+    cursor: pointer;
+}
+
+.footer-content p {
+    max-width: 400px;
+    margin: 0px auto;
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.footer-bottom p {
+    font-size: 15px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
